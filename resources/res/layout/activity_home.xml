@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/bottomNav" android:background="@drawable/gradient_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:menu="@menu/botton_navigation"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/home_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottomNav"/>
+    <TextView android:textSize="30sp" android:id="@+id/wait1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please Wait..." android:layout_centerInParent="true"/>
+</RelativeLayout>

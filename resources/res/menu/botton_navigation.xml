@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_home_black_24dp" android:enabled="true" android:id="@+id/home" android:title="Home"/>
+    <item android:icon="@drawable/ic_local_library_black_24dp" android:enabled="true" android:id="@+id/ebook" android:title="Ebook"/>
+    <item android:icon="@drawable/ic_language_black_24dp" android:enabled="true" android:id="@+id/quiz" android:title="Quiz"/>
+    <item android:icon="@drawable/ic_person_black1_24dp" android:enabled="true" android:id="@+id/profile" android:title="Profile"/>
+</menu>
